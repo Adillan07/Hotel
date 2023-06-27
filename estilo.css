@@ -7,6 +7,7 @@
 html,body{
     height: 100%;
     font-family: Roboto;
+    scroll-behavior: smooth;
 }
 header .topo{
     height: 280px;
@@ -71,6 +72,12 @@ nav ul li a{
 }
 #quartos .Imgs{
     margin-bottom: 12px;
+}
+#quartos .Imgs img{
+    transition: transform 0.3s;
+}
+.Imgs img:hover{
+    transform: scale(1.1)
 }
 #localizacao{
     background-color:#00B5B2;
